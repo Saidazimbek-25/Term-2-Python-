@@ -1,8 +1,8 @@
 # 1 task
 side=float(input('enter the length of the side: '))
-parimeter=4*side
+perimeter=4*side
 area=side**2
-print('Parimeter:',parimeter)
+print('Perimeter:',perimeter)
 print('Area:',area)
 # 2 task 
 diameter = float(input('Enter the diameter:'))
@@ -14,7 +14,7 @@ a=float(input('Enter the number'))
 b=float(input('Enter the number'))
 Mean=(a+b)/2
 print('Average is : ', Mean)
-# 5 task 
+# 4 task 
 a=float(input('Enter the number'))
 b=float(input('Enter the number'))
 sum=(a+b)
