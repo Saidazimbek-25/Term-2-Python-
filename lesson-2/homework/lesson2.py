@@ -27,3 +27,4 @@ print(txt[-6:]) #output is London
 a = input('Enter the word you want, I will make it reverse: ')
 reversed = a[::-1]
 print(f'Result: {reversed}')
+
