@@ -27,4 +27,23 @@ print(txt[-6:]) #output is London
 a = input('Enter the word you want, I will make it reverse: ')
 reversed = a[::-1]
 print(f'Result: {reversed}')
+#task-5
+a = input("Enter any words: ")
+
+def vowelOrconsonant(x):
+    if x in 'aeiouAEIOU':
+        return True
+    else:
+        return False
+    
+vowel_count=0
+    
+for letter in a:
+    if vowelOrconsonant(letter):
+       vowel_count+=1
+    
+print('Number of vowels:',vowel_count)    
+
+#task-6
+
 
