@@ -65,4 +65,8 @@ else:
    print('The word is palindrome!')
   else:
    print('No')
+#task 8
+a=input('enter your email:')
+domain=a.split('.')[-1]
+print(f'domain is:{domain}')
 
