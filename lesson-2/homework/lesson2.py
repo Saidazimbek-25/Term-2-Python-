@@ -71,4 +71,11 @@ a=input('enter your email:')
 domain=a.split('@')[1]
 print(f'domain is: {domain}')
 # task 10
+import random
+import string
+def generate_password(length):
+  characters=string.ascii_letters+string.digits+string.punctuation
+  return ''.join(random.sample(characters,length))
 
+password=generate_password(10)
+print(password)
