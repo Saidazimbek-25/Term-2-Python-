@@ -68,7 +68,7 @@ else:
    print('No')
 #task 9
 a=input('enter your email:')
-domain=a.split('.')[1]
-print(f'domain is:{domain}')
+domain=a.split('@')[1]
+print(f'domain is: {domain}')
 # task 10
 
