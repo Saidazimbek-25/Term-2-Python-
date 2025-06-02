@@ -55,3 +55,14 @@ if a:
 else:
   print("You didn't enter any numbers")
 
+#task 7
+
+a=input('Enter any words:')
+if any(char.isdigit()for char in a):
+  print('Input should not contain numbers!')
+else: 
+  if a==a[::-1]:
+   print('The word is palindrome!')
+  else:
+   print('No')
+
