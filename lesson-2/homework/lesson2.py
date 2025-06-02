@@ -1,3 +1,4 @@
+#task 1
 from datetime import date
 def age_calculator(birthdate):
     today= date.today() 
@@ -20,14 +21,14 @@ print(txt[1::2]) #output is Malibu
 txt = 'MsaatmiazD'
 print(txt[::2]) #output is Matiz
 print(txt[-1::-2]) #output is Damas
-#task-3
+#task-4
 txt = "I'am John. I am from London" 
 print(txt[-6:]) #output is London
-#task-4
+#task-5
 a = input('Enter the word you want, I will make it reverse: ')
 reversed = a[::-1]
 print(f'Result: {reversed}')
-#task-5
+#task-6
 a = input("Enter any words: ")
 
 def vowelOrconsonant(x):
@@ -44,7 +45,7 @@ for letter in a:
     
 print('Number of vowels:',vowel_count)    
 
-#task-6
+#task-7
 
 userinput = input('Enter numbers seperated by spaces:')
 a = list(map(int,userinput.split()))
@@ -55,7 +56,7 @@ if a:
 else:
   print("You didn't enter any numbers")
 
-#task 7
+#task 8
 
 a=input('Enter any words:')
 if any(char.isdigit()for char in a):
@@ -65,8 +66,9 @@ else:
    print('The word is palindrome!')
   else:
    print('No')
-#task 8
+#task 9
 a=input('enter your email:')
 domain=a.split('.')[1]
 print(f'domain is:{domain}')
+# task 10
 
