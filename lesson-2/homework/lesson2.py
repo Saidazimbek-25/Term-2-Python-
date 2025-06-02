@@ -46,4 +46,12 @@ print('Number of vowels:',vowel_count)
 
 #task-6
 
+userinput = input('Enter numbers seperated by spaces:')
+a = list(map(int,userinput.split()))
+   
+if a:
+  largest=max(a)
+  print(f'The largest number is:{largest}')
+else:
+  print("You didn't enter any numbers")
 
