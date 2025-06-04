@@ -65,3 +65,8 @@ animals = ["tiger", "leopard", "cheetah", "elephant",
     "jaguar", "crocodile", "alligator", "antelope", "wild boar"
 ]
 print(animals.index("lion"))
+#task-11
+a=(34,45,56,67,78,87)
+b=(67,98,78,90,99,18,56)
+merged=a+b
+print(merged)
