@@ -10,3 +10,9 @@ list1=[1,2,3,4]
 list2=[5,6,7]
 result=list1+list2
 print(result)
+#task-3
+a=[10,23,34,45,56,65]
+first=a[0]
+middle=a[len(a)//2]
+last=a[-1]
+print(first,middle,last)
