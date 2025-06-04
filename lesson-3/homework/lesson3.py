@@ -86,3 +86,7 @@ a=(12,4,34,45,789,56,67,78)
 
 print('maxium number:',max(a))
 print('minium number:',min(a))
+#task-15
+a=(12,4,34,45,789,56,67,78)
+rev=a[::-1]
+print(rev)
