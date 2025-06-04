@@ -58,3 +58,10 @@ colors= [
     "blue", "gray", "red"
 ]
 print(colors.count('red'))
+#task-10
+animals = ["tiger", "leopard", "cheetah", "elephant",
+    "giraffe", "zebra", "rhino", "lion","hippopotamus", "buffalo",
+    "bear", "wolf", "hyena", "gorilla", "panther",
+    "jaguar", "crocodile", "alligator", "antelope", "wild boar"
+]
+print(animals.index("lion"))
