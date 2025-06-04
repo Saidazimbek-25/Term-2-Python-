@@ -70,3 +70,9 @@ a=(34,45,56,67,78,87)
 b=(67,98,78,90,99,18,56)
 merged=a+b
 print(merged)
+#task-12
+list=[34,45,56,67,78,87]
+tuple=(67,98,78,90,99,18,56)
+
+print('list length:',len(list))
+print('Tuple length:',len(tuple))
