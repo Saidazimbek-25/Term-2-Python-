@@ -16,3 +16,29 @@ first=a[0]
 middle=a[len(a)//2]
 last=a[-1]
 print(first,middle,last)
+#task-4
+
+a=["Schindler's List","Inception","The Godfather Part II","The Godfather","Warcraft"]
+mytuple=tuple(a)
+print('tupled version:',mytuple)
+#second way
+tup=(*a,)
+print('tuple:',tup)
+
+#task-5
+cities=['London','Kiyev','Moscow','Tashkent','Paris','Istanbul','Abu-Dhabi']
+if 'Paris' in cities:
+    print('Paris in the list🗼')
+else:
+    print('Paris is not in the list')
+
+#task-6
+a=[23,45,54,87,98,89,90]
+#first way
+b=a.copy()+a.copy()
+#second way
+c=a*2
+#third way
+d=a[:]+a[:]
+
+print(b,c,d)
