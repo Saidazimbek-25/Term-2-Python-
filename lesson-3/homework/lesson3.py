@@ -42,3 +42,7 @@ c=a*2
 d=a[:]+a[:]
 
 print(b,c,d)
+#task-7
+a=[23,78,90,89,67]
+a[0],a[-1]=a[-1],a[0]
+print("List after swapping first and last elements:",a)
