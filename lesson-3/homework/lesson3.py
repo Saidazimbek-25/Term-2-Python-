@@ -81,3 +81,8 @@ print('Tuple length:',len(tuple))
 a=(12,34,45,56,67,78)
 b=list(a)
 print(b)
+#task-14
+a=(12,4,34,45,789,56,67,78)
+
+print('maxium number:',max(a))
+print('minium number:',min(a))
