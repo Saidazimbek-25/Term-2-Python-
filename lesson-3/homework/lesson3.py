@@ -1,10 +1,6 @@
 #task-1
 a=['banana','pear','pineapple','grapes','wildberry']
-print(a[0]) 
-print(a[1]) 
 print(a[2]) 
-print(a[3]) 
-print(a[4]) 
 #task-2
 list1=[1,2,3,4]
 list2=[5,6,7]
