@@ -87,6 +87,10 @@ a=(12,4,34,45,789,56,67,78)
 print('maxium number:',max(a))
 print('minium number:',min(a))
 #task-15
-a=(12,4,34,45,789,56,67,78)
-rev=a[::-1]
+words = ("apple", "banana", "cherry", "date", "elderberry", "fig", "grape")
+#first way
+rev=words[::-1]
+#second way
+u=tuple(reversed(words))
 print(rev)
+print(u)
