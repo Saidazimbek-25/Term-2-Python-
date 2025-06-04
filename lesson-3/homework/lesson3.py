@@ -50,3 +50,11 @@ print("List after swapping first and last elements:",a)
 tup=(1,2,3,4,5,6,7,8,9,10)
 slice1=tup[3:7]
 print(slice1)
+#task-9
+colors= [
+    "red", "blue", "green", "yellow",
+    "blue", "purple", "red", "orange",
+    "pink", "green", "black", "white",
+    "blue", "gray", "red"
+]
+print(colors.count('red'))
