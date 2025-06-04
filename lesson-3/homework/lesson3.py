@@ -76,3 +76,8 @@ tuple=(67,98,78,90,99,18,56)
 
 print('list length:',len(list))
 print('Tuple length:',len(tuple))
+
+#task-13
+a=(12,34,45,56,67,78)
+b=list(a)
+print(b)
