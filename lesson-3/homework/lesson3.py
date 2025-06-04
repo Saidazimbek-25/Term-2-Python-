@@ -46,3 +46,7 @@ print(b,c,d)
 a=[23,78,90,89,67]
 a[0],a[-1]=a[-1],a[0]
 print("List after swapping first and last elements:",a)
+#task-8
+tup=(1,2,3,4,5,6,7,8,9,10)
+slice1=tup[3:7]
+print(slice1)
