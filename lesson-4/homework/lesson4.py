@@ -9,7 +9,7 @@ print("Decsending order",desc_sorted)
 a={0:10,1:20}
 a[2]=30
 print(a)
-#second way
+#2nd way
 a.update({2:30})
 print(a)
 #task-3
@@ -20,6 +20,9 @@ dic3 = {5: 50, 6: 60}
 dic1.update(dic2)
 dic1.update(dic3)
 print(dic1)
-#second way
+#2nd way
 dic1=dic1|dic2|dic3
 print(dic1)
+#3rd way
+d3 = {**dic1, **dic2,**dic3}
+print(d3)
