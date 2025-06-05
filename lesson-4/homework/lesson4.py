@@ -4,3 +4,12 @@ asc_sorted=dict(sorted(my_dict.items(),key=lambda item:item[1]))
 desc_sorted = dict(sorted(my_dict.items(), key=lambda item: item[1],reverse=True))
 print("Acsending order",asc_sorted)
 print("Decsending order",desc_sorted)
+#task-2
+#1st way
+a={0:10,1:20}
+a[2]=30
+print(a)
+#second way
+a.update({2:30})
+print(a)
+#task-3
