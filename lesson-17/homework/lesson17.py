@@ -92,3 +92,15 @@ df = pd.DataFrame({
 df['Salary']=np.random.randint(3000,10000,size=len(df))
 print(df)
 
+#task-6
+import pandas as pd
+
+df = pd.DataFrame({
+    'First Name': ['Alice', 'Bob', 'Charlie', 'David'],
+    'Age': [25, 30, 35, 40],
+    'City': ['New York', 'San Francisco', 'Los Angeles', 'Chicago']
+})
+
+df = df.head() 
+
+print(df.describe(include='all'))
