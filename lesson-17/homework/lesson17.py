@@ -16,9 +16,6 @@ print(df)
 #task-2
 import pandas as pd
 
-data = {'First Name': ['Alice', 'Bob', 'Charlie', 'David'], 'Age': [25, 30, 35, 40], 'City': ['New York', 'San Francisco', 'Los Angeles', 'Chicago']} df = pd.DataFrame(data)
-import pandas as pd
-
 df = pd.DataFrame({
     'First Name': ['Alice', 'Bob', 'Charlie', 'David'],
     'Age': [25, 30, 35, 40],
@@ -77,3 +74,4 @@ print(thirdway)
 fourthway=df.filter(regex='First Name|City')
 
 print(fourthway)
+
